@@ -46,9 +46,9 @@ if __name__ == '__main__':
         dest = '/topic/' + arguments['<dest>']
 
     if arguments['message']:
-        conn.send('/queue/' + arguments['<dest>'], data, content_type)
+        conn.send(dest, data, content_type)
     elif arguments['file']:
-        conn.send('/queue/' + arguments['<dest>'], data,
+        conn.send(dest, data,
                   filename=os.path.basename(arguments['<data>']),
                   content_type=content_type)
     print("message sent")
