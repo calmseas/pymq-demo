@@ -1,0 +1,11 @@
+{
+  "simple": "json",
+  "complex": {
+    "options": [
+      "one",
+      "two",
+      "eight"
+    ],
+    "config": "--test --failfast"
+  }
+}

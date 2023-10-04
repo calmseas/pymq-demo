@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pymq-demo"
+version = "0.1.0"
+description = "Demo app for sending and receiving using stomp.py"
+authors = ["Jessie McDonald <jessie.x.mac@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+stomp-py = "^8.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
